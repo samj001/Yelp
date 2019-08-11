@@ -40,13 +40,13 @@ For feature vectors with asterisks, logistic regression outperformed the rest of
   
 ### Food Classifier
 
-![image]
+![image](https://github.com/samj001/Yelp/blob/master/image/food%20classifier.png)
  
  
 
 
 ### Service Classifier
-![image]
+![image](https://github.com/samj001/Yelp/blob/master/image/service%20classifier.png)
   
 The cosine-similarity weighted bag of words was the overall best-performing model for both tasks. Semantic features improved classification accuracy. 
 
