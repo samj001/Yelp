@@ -18,7 +18,7 @@ To train our model, we labeled 1,200 reviews according to whether they made comm
 We made a number of decisions in preprocessing reviews. First, we dropped stop-words from the Natural Language Processing Toolkit’s publicly available list of stop words. Then we stripped the review of all punctuation and stemmed each token in each review. While these pre-processing steps arguably strip the review data of important context, our results demonstrate that the token-level information was sufficient to make accurate predictions about reviews’ classes.   
   
 
-## Phrase 3a: Representing Reviews  
+## Representing Reviews  
   
 For our three baselines, we represented reviews as a bag-of-words,  TFIDF-weighted unigrams, and TFIDF-weighted unigrams and bigrams. We then created six additional feature vectors described in detail below. Before explaining our contribution, we describe one metric: Wu-Palmer Similarity.  
 ### Wu-Palmer
